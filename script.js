@@ -12,3 +12,9 @@ document.querySelectorAll("button").forEach((btn) => {
     console.log("hover btn");
   });
 });
+
+document.querySelectorAll("button").forEach((btn) => {
+  btn.addEventListener("", () => {
+    console.log("hover btn");
+  });
+});
